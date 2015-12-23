@@ -1,0 +1,21 @@
+{
+  "name": "react-redux-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "react-redux": "^4.0.4",
+    "redux": "^3.0.5"
+  },
+  "devDependencies": {
+    "react": "^0.14.3",
+    "redux-devtools": "^3.0.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
