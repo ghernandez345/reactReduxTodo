@@ -1,10 +1,12 @@
+/*global require, __dirname, module, process*/
+
 var path = require('path');
 var HtmlwebpackPlugin = require('html-webpack-plugin');
 var webpack = require('webpack');
 
 var PATHS = {
- app: path.join(__dirname, 'app'),
- build: path.join(__dirname, 'build')
+  app: path.join(__dirname, 'app'),
+  build: path.join(__dirname, 'build')
 };
 
 module.exports = {
@@ -25,7 +27,7 @@ module.exports = {
           presets: ['react', 'es2015']
         }
       }
-    ],
+    ]
   },
 
   // dev server options
@@ -40,8 +42,7 @@ module.exports = {
 
     // Parse host and port from env so this is easy to customize.
     host: process.env.HOST,
-    port: process.env.PORT,
-
+    port: process.env.PORT
   },
 
   // plugins
